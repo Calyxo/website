@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Dear-Sunshine;
+    src: url(./assets/DearSunshine-Rp0q3.ttf) format("truetype");
+  }
+
+  .success-header {
+    padding: 10vw;
+    font-size: 6vw;
+  font-family: Dear-Sunshine;
+  max-height: 10vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  background-color: #282c34;
+  }
+
+  .success-content {
+      display: flex;
+      flex-direction: row;
+      background-color: #282c34;
+  }
+
+  .success-timeline {
+      display:flex;
+      flex-direction: column;
+      width: 30vw;
+      padding: 2vw;
+  }
+
+  .timeline-event {
+      padding: 1vw;
+  }

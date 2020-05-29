@@ -1,38 +1,58 @@
+@font-face {
+  font-family: Dear-Sunshine;
+  src: url(./assets/DearSunshine-Rp0q3.ttf) format("truetype");
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
+}
+
+.app-header {
+  position: fixed;
+  background-color: #282c34;
+  width: 97vw;
+  height: 7vw;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  font-size: 2vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  padding: 1vw;
+  text-decoration: none;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inside {
+  background-color: #282c34;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  width: 100vw;
+  padding-top: 7vw;
+  height: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+.hello {
+  font-size: 10vw;
+  font-family: Dear-Sunshine;
+  max-height: 10vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.neele-face {
+  width: 20vw;
+  height: 20vw;
+  align-self: center;
+  border-radius: 30%;
+}
+
